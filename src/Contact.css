@@ -1,0 +1,61 @@
+
+
+.from {
+    text-align: left;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    width: 40%;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea#message {
+    padding: 10px 30px;
+    margin: 8px 0;
+    width: 88%;
+}
+
+/* label {
+    display: block;
+  } */
+
+input.submit {
+    display: inline-block;
+    background: #4CAF50;
+    border: none;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.errors {
+    /* display: block; */
+    color: red;
+}
+
+input.reset {
+    display: inline-block;
+    background: #dd0505;
+    border: none;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
+
+.submitted {
+    /* display: block; */
+    color: #4CAF50;
+}
+
+.highlight {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    }
