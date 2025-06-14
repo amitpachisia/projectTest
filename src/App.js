@@ -10,6 +10,7 @@ import Dropdown from './Dropdown'
 import Barchart from './Barchart';
 import MyLineChart from './MyLineChart';
 import PolarAreaChart from './PolarAreaChart';
+import ImageCarouselSidd from './ImageCarouselSidd';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
       {/* <Dropdown/> */}
       {/* <Barchart/> */}
       {/* <MyLineChart/> */}
-      <PolarAreaChart/>
+      {/* <PolarAreaChart/> */}
+      <ImageCarouselSidd/>
 
 
     </div>
