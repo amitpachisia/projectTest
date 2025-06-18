@@ -11,6 +11,7 @@ import Barchart from './Barchart';
 import MyLineChart from './MyLineChart';
 import PolarAreaChart from './PolarAreaChart';
 import ImageCarouselSidd from './ImageCarouselSidd';
+import CustomSlider from './CustomSlider';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div>
+
 
       
    
@@ -33,6 +35,9 @@ function App() {
       {/* <MyLineChart/> */}
       {/* <PolarAreaChart/> */}
       <ImageCarouselSidd/>
+      <CustomSlider />
+       
+
 
 
     </div>
