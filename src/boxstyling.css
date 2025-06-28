@@ -1,0 +1,43 @@
+.main{
+
+    display: flex;
+}
+
+.boxstyling {
+
+    color: yellow;
+    font-size: 20px;
+    
+
+}
+
+.hoverEffect:hover {
+    background-color: yellow;
+    color: orange;
+    border: 5px solid red;
+}
+
+.hoverEffect:active {
+    background-color: green;
+    color: white;
+    border: 5px dotted blue;
+}
+
+.hoverEffect:disabled {
+    background-color:bisque;
+    color:coral;
+    border: 5px dotted black;
+    cursor: none;
+}
+
+.sampleEffect:active {
+    background-color:bisque;
+    color:coral;
+    border: 5px dotted black;
+}
+
+.sampleEffect:hover {
+    background-color:bisque;
+    color:coral;
+    border: 5px dotted black;
+}
