@@ -1,0 +1,13 @@
+.block1{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    background-color: red;
+}
+
+.block2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
