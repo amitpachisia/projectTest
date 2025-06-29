@@ -3,16 +3,17 @@ import './Layoutdesign.css'
 
 const Layout = () => {
   return (
-    <div class="block1">
-        <div class="block2">
-
-            <Link className="Link" to="/">Home</Link>
-
-            <Link to="/blogs">Blogs</Link>
-
-            <Link to="/Contact">Contact</Link>
-            </div>
+    <div className="header">
+      <div className="logo"><h1>LOGO</h1></div>
+      <div class="block1">
+        <ul>
+            <li> <Link className="Link" to="/">Home</Link></li>
+            <li><Link to="/blogs">Blogs</Link></li>
+            <li><Link to="/Contact">Contact</Link></li>
+        </ul>
     </div>
+    </div>
+  
   )
 };
 

@@ -50,3 +50,9 @@ button {
   background-color: #3498db;
   color: white;
 }
+
+div#root {
+  position: relative;
+  display: block;
+  width: 100%;
+}
