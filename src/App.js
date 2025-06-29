@@ -14,10 +14,9 @@ import MyLineChart from './MyLineChart';
 import PolarAreaChart from './PolarAreaChart';
 import ImageCarouselSidd from './ImageCarouselSidd';
 import CustomSlider from './CustomSlider';
-import Test from './test';
+// import Test from './test';
 import Homebutton from './Homebutton';
 import Layout from './Layout'
-
 
 function App() {
 
@@ -47,7 +46,8 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-       
+
+
 
 
 
