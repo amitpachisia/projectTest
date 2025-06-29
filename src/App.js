@@ -4,7 +4,7 @@ import Contact from './Contact';
 // import Fetch from './Fetch';
 // import TodoList from './TodoList';
 import User from './User';
-// import { useState } from 'react';
+ import { useState } from 'react';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ApiFetch from './ApiFetch';
@@ -20,6 +20,11 @@ import Layout from './Layout'
 
 function App() {
 
+  const[example, setExample] = useState(true);
+
+  const checker = () => {
+    setExample(!example)
+  }
 
 
   return (
@@ -46,9 +51,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-
-
-
+    <button onClick={checker}>click</button>
 
 
     </div>
